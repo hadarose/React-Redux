@@ -50,7 +50,7 @@ class UserComp extends Component
     render()
     {
         return (
-        <div>
+        <div style = {{border: "5px solid red", width: "450px", marginTop: "10px"}}>
             
             ID: <input onChange = {this.getId} /><br/>
             First Name: <input onChange = {this.getFname} /><br/>

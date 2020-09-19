@@ -21,7 +21,7 @@ class AllAdultUsersComp extends Component
             </tr>)
         })
         return (
-        <div>
+        <div style = {{border: "5px solid blue", width: "200px", marginTop: "10px"}}>
             <h2>All Adult Users</h2>
             <table border = "1"  >
                 <tbody>
